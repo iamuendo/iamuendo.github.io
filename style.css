@@ -37,6 +37,7 @@ h1 {
     color: #79c0ff;
     font-weight: 700;
     font-size: 2.6rem;
+    text-align: center;
     margin: 0;
     text-shadow: 0 0 8px #79c0ff66;
     white-space: nowrap;
@@ -239,7 +240,7 @@ details pre {
     color: #a5d6ff;
 }
 
-#home-content {
+#hero {
     display: grid;
     grid-template-columns: 240px 1fr;
     gap: 30px;
@@ -313,6 +314,10 @@ details pre {
     .container {
         flex-direction: column;
         height: auto;
+    }
+
+    #hero{
+        display: block;
     }
 
     nav {
