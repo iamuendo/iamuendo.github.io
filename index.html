@@ -9,254 +9,95 @@
   <body>
     <header>
       <h1>Iamuendo</h1>
-      <nav>
-        <a class="active" onclick="showPage('home')" id="link-home">Home</a>
-        <a onclick="showPage('education')" id="link-education"
-          >Education & Certifications</a
-        >
-        <a onclick="showPage('skills')" id="link-skills">Skills & Talents</a>
-        <a onclick="showPage('aspirations')" id="link-aspirations"
-          >Future Aspirations</a
-        >
-        <a onclick="showPage('contact')" id="link-contact">Contact</a>
-      </nav>
     </header>
 
-    <section id="home" class="active">
-      <div id="home-content">
-        <div class="photo-container">
-          <img src="isaac.png" alt="Isaac Muendo" />
+    <button id="menu-toggle">&#9776;</button>
+
+    <div class="container">
+      <nav id="side-nav" aria-label="Primary navigation">
+        <a href="index.html" class="active">Home</a>
+        <a href="childhood.html">Childhood</a>
+        <a href="education.html">Education & Certifications</a>
+        <a href="skills.html">Skills & Talents</a>
+        <a href="aspirations.html">Future Aspirations</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+
+      <main>
+        <section id="home" class="active">
+          <div id="home-content">
+            <div class="photo-container">
+              <img src="isaac.png" alt="Isaac Muendo" />
+            </div>
+            <div>
+              <h2>About Me</h2>
+              <p class="intro-text">
+                Hi! My name is Isaac Muendo, and I'm a tech entrepreneur with a
+                passion for cybersecurity. My interest in software development
+                and security automation began in high school when I worked on
+                various projects. Now, as a blue team professional, I work to
+                improve digital security systems.
+              </p>
+            </div>
+          </div>
+          <div>
+            <p>
+              In the last six years, I’ve gained valuable experience through
+              hands-on internships and real-world projects, sharpening my skills
+              to develop and implement effective security controls to help
+              enterprises safeguard their critical digital assets.
+            </p>
+            <p>
+              As the Founder and CEO of ArifaLab, I lead a dedicated team
+              focused on creating innovative tools that empower MSMEs and
+              startups to strengthen their cyber resilience. Together, we’re
+              building smarter, adaptive defence systems that keep businesses
+              safe in an ever-changing digital landscape.
+            </p>
+            <p>
+              Recognised for my contributions, I actively share knowledge
+              through seminars and workshops, inspiring others to explore the
+              vast opportunities of technology.<br></br>
+              Let's connect and work together!
+            </p>
+          </div>
+        </section>
+
+        <div class="footer">
+          <p>&copy; Isaac Muendo</p>
+          <div class="social-links">
+            <a
+              href="https://linkedin.com/in/isaac-muendo"
+              target="_blank"
+              rel="noopener noreferrer"
+              >LinkedIn</a
+            >
+            |
+            <a
+              href="https://github.com/iamuendo"
+              target="_blank"
+              rel="noopener noreferrer"
+              >GitHub</a
+            >
+            |
+            <a
+              href="https://t.me/Iamuendo"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Telegram</a
+            >
+            |
+            <a
+              href="https://x.com/iamuendo"
+              target="_blank"
+              rel="noopener noreferrer"
+              >X</a
+            >
+          </div>
         </div>
-        <div>
-          <h2>About Me</h2>
-          <p class="intro-text">
-            Hi! My name is Isaac Muendo, and I'm a tech entrepreneur with a
-            passion for cybersecurity. My interest in software development and
-            security automation began in high school when I worked on various
-            projects. Now, as a blue team professional, I work to improve
-            digital security systems.
-          </p>
-        </div>
-      </div>
-      <div>
-        <p>
-          In the last six years, I’ve gained valuable experience through
-          hands-on internships and real-world projects, sharpening my skills to
-          develop and implement effective security controls to help enterprises
-          safeguard their critical digital assets.
-        </p>
-        <p>
-          As the Founder and CEO of ArifaLab, I lead a dedicated team focused on
-          creating innovative tools that empower MSMEs and startups to
-          strengthen their cyber resilience. Together, we’re building smarter,
-          adaptive defence systems that keep businesses safe in an ever-changing
-          digital landscape.
-        </p>
-        <p>
-          Recognised for my contributions, I actively share knowledge through
-          seminars and workshops, inspiring others to explore the vast
-          opportunities of technology.<br></br> Let's connect and work together!
-        </p>
-      </div>
-    </section>
-
-    <section id="education">
-      <h2>Education</h2>
-      <details>
-        <summary>Zetech University</summary>
-        <pre>
-<span class="yaml-key">degree_level:</span> <span class="yaml-string">B.Sc. Software Engineering</span>
-<span class="yaml-key">status:</span> <span class="yaml-string">Ongoing</span>
-<span class="yaml-key">graduation_year:</span> <span class="yaml-number">2027</span>
-<span class="yaml-key">extracurriculars:</span>
-  - <span class="yaml-string">Hackathon participant</span>
-  - <span class="yaml-string">Research Intern</span>
-        </pre>
-
-        <pre>
-<span class="yaml-key">degree_level:</span> <span class="yaml-string">Diploma in Computer Science</span>
-<span class="yaml-key">status:</span> <span class="yaml-string">Complete</span>
-<span class="yaml-key">graduation_year:</span> <span class="yaml-number">2024</span>
-<span class="yaml-key">extracurriculars:</span>
-  - <span class="yaml-string">Hackathon participant</span>
-  - <span class="yaml-string">Student Club Chairperson</span>
-    </pre>
-      </details>
-      <details>
-        <summary>Edulink International College</summary>
-        <pre>
-<span class="yaml-key">degree_level:</span> <span class="yaml-string">Advanced Diploma in Software Engineering</span>
-<span class="yaml-key">status:</span> <span class="yaml-string">Complete</span>
-<span class="yaml-key">graduation_year:</span> <span class="yaml-number">2022</span>
-    </pre>
-      </details>
-      <details>
-        <summary>Nova Pioneer Boys High School</summary>
-        <pre>
-<span class="yaml-key">degree_level:</span> <span class="yaml-string">Kenya Certificate Of Secondary School Education</span>
-<span class="yaml-key">status:</span> <span class="yaml-string">Complete</span>
-<span class="yaml-key">graduation_year:</span> <span class="yaml-number">2019</span>
-    </pre>
-      </details>
-      <h2>Certifications</h2>
-      <details>
-        <summary>Endpoint Security</summary>
-        <pre>
-<span class="yaml-key">issued_by:</span> <span class="yaml-string">Cisco Networking Academy</span>
-<span class="yaml-key">date_issued:</span> <span class="yaml-number">29-01-2025</span>
-<span class="yaml-key">level:</span> <span class="yaml-string">Intermediate</span>
-<span class="yaml-key">credential:</span> <span class="yaml-string"><a href="https://www.credly.com/badges/316ea6e1-4cb7-4cae-b1d3-31851e560a02/linked_in_profile">credly.com/badges/316ea6e1-4cb7-4cae-b1d3-31851e560a02/</a></span>
-    </pre>
-      </details>
-      <details>
-        <summary>Network Defense</summary>
-        <pre>
-<span class="yaml-key">issued_by:</span> <span class="yaml-string">Cisco Networking Academy</span>
-<span class="yaml-key">date_issued:</span> <span class="yaml-number">29-01-2025</span>
-<span class="yaml-key">level:</span> <span class="yaml-string">Intermediate</span>
-<span class="yaml-key">credential:</span> <span class="yaml-string"><a href="https://www.credly.com/badges/250a2d5f-7b02-4820-ab8c-637fca96d132/linked_in_profile">credly.com/badges/250a2d5f-7b02-4820-ab8c-637fca96d132/</a></span>
-    </pre>
-      </details>
-      <details>
-        <summary>General Course on Intellectual Property</summary>
-        <pre>
-<span class="yaml-key">issued_by:</span> <span class="yaml-string">World Intellectual Property Organisation (WIPO)</span>
-<span class="yaml-key">date_issued:</span> <span class="yaml-number">24-12-2024</span>
-<span class="yaml-key">level:</span> <span class="yaml-string">Beginner</span>
-<span class="yaml-key">credential:</span> <span class="yaml-string"><a href="https://welc.wipo.int/lms/verify/index.php?q=y8rNY1nHqE">welc.wipo.int/lms/verify/index.php?q=y8rNY1nHqE</a></span>
-    </pre>
-      </details>
-      <details>
-        <summary>CyberOps Associate</summary>
-        <pre>
-<span class="yaml-key">issued_by:</span> <span class="yaml-string">Cisco Networking Academy</span>
-<span class="yaml-key">date_issued:</span> <span class="yaml-number">16-05-2024</span>
-<span class="yaml-key">level:</span> <span class="yaml-string">Intermediate</span>
-<span class="yaml-key">credential:</span> <span class="yaml-string"><a href="https://www.credly.com/badges/d9172b7c-792f-4f3a-96c0-b79ea421833d/linked_in_profile">credly.com/badges/d9172b7c-792f-4f3a-96c0-b79ea421833d/</a></span>
-    </pre>
-      </details>
-      <details>
-        <summary>CCNA: Enterprise Networking, Security and Automation</summary>
-        <pre>
-<span class="yaml-key">issued_by:</span> <span class="yaml-string">Cisco Networking Academy</span>
-<span class="yaml-key">date_issued:</span> <span class="yaml-number">13-08-2023</span>
-<span class="yaml-key">level:</span> <span class="yaml-string">Intermediate</span>
-<span class="yaml-key">credential:</span> <span class="yaml-string"><a href="https://welc.wipo.int/lms/verify/index.php?q=y8rNY1nHqE">welc.wipo.int/lms/verify/index.php?q=y8rNY1nHqE</a></span>
-    </pre>
-      </details>
-      <details>
-        <summary>CCNA: Switching, Routing & Wireless Essentials</summary>
-        <pre>
-<span class="yaml-key">issued_by:</span> <span class="yaml-string">Cisco Networking Academy</span>
-<span class="yaml-key">date_issued:</span> <span class="yaml-number">30-04-2023</span>
-<span class="yaml-key">level:</span> <span class="yaml-string">Beginner</span>
-<span class="yaml-key">credential:</span> <span class="yaml-string"><a href="https://www.credly.com/badges/c771c384-bcdf-4d29-92d1-e3826b512cc5/linked_in_profile">credly.com/badges/c771c384-bcdf-4d29-92d1-e3826b512cc5/</a></span>
-    </pre>
-      </details>
-    </section>
-
-    <section id="skills">
-      <h2>Skills & Talents</h2>
-      <pre>
-<span class="yaml-key">skills:</span>
-  - <span class="yaml-string">Problem Solving</span>
-  - <span class="yaml-string">Technical Support</span>
-  - <span class="yaml-string">Bash scripting</span>
-  - <span class="yaml-string">Backend Web development</span>
-  - <span class="yaml-string">Network Configuration</span>
-  - <span class="yaml-string">Information Security Management</span>
-  - <span class="yaml-string">Intellectual Property Management</span>
-<span class="yaml-key">programming_languages:</span>
-  - <span class="yaml-string">C</span>
-  - <span class="yaml-string">Bash</span>
-  - <span class="yaml-string">YAML</span>
-  - <span class="yaml-string">Python</span>
-  - <span class="yaml-string">Rust</span>
-  - <span class="yaml-string">Java</span>
-  - <span class="yaml-string">PHP</span>
-  - <span class="yaml-string">Javascript</span>
-<span class="yaml-key">platforms_used:</span>
-  - <span class="yaml-string">Azure</span>
-  - <span class="yaml-string">Wazuh</span>
-  - <span class="yaml-string">GitHub</span>
-  - <span class="yaml-string">Suricata</span>
-  - <span class="yaml-string">Tracecat</span>
-  - <span class="yaml-string">MISP</span>
-  - <span class="yaml-string">Docker</span>
-  - <span class="yaml-string">Linux</span>
-<span class="yaml-key">hobbies:</span>
-  - <span class="yaml-string">Project development</span>
-  - <span class="yaml-string">Esports</span>
-  - <span class="yaml-string">Baking</span>
-  </pre>
-    </section>
-
-    <section id="aspirations">
-      <h2>Future Aspirations</h2>
-      <pre>
-<span class="yaml-key">career_goals:</span> <span class="yaml-string">Become a security software developer specialising in cloud security applications.</span>
-<span class="yaml-key">aspirations:</span>
-  - <span class="yaml-string">Take up leadership roles in Security Operations Center</span>
-  - <span class="yaml-string">Develop automated security solutions</span>
-  - <span class="yaml-string">Pursue industry certifications to improve my career</span>
-  - <span class="yaml-string">Become a successful tech entrepreneur</span>
-  </pre>
-    </section>
-
-    <section id="contact">
-      <h2>Contact Information</h2>
-      <pre>
-<span class="yaml-key">chat_on_telegram:</span> <span class="yaml-string"><a href="https://t.me/Iamuendo">t.me/Iamuendo</a></span>
-<span class="yaml-key">connect_via_linkedin:</span> <span class="yaml-string"><a href="https://linkedin.com/in/isaac-muendo">linkedin.com/in/isaac-muendo</a></span>
-      </pre>
-    </section>
-
-    <div class="footer">
-      <p>&copy; Isaac Muendo</p>
-      <div class="social-links">
-        <a
-          href="https://linkedin.com/in/isaac-muendo"
-          target="_blank"
-          rel="noopener noreferrer"
-          >LinkedIn</a
-        >
-        |
-        <a
-          href="https://github.com/iamuendo"
-          target="_blank"
-          rel="noopener noreferrer"
-          >GitHub</a
-        >
-        |
-        <a
-          href="https://t.me/Iamuendo"
-          target="_blank"
-          rel="noopener noreferrer"
-          >Telegram</a
-        >
-        |
-        <a
-          href="https://x.com/iamuendo"
-          target="_blank"
-          rel="noopener noreferrer"
-          >X</a
-        >
-      </div>
+      </main>
     </div>
 
-    <script>
-      function showPage(pageId) {
-        const sections = document.querySelectorAll("section");
-        const links = document.querySelectorAll("nav a");
-        sections.forEach((section) => {
-          section.classList.remove("active");
-          if (section.id === pageId) section.classList.add("active");
-        });
-        links.forEach((link) => {
-          link.classList.remove("active");
-          if (link.id === "link-" + pageId) link.classList.add("active");
-        });
-      }
-    </script>
+    <script src="script.js"></script>
   </body>
 </html>
